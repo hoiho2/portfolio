@@ -158,7 +158,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
 
 #aboutme>.content1-left>a>p.img {
     width: 358px;
-    height:  500px;
+    height:  553px;
     text-indent: -9999px;
     background-image: url(../images/about_me.jpg);
 }
@@ -832,10 +832,10 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
     position: absolute;
     right: 50%;
     top: 300px;
-    margin-right: -985px;
-    width: 800px;
+    margin-right: -685px;
+    width: 600px;
     height: 375px;
-    background-image: url(../images/contact_banner.jpg);
+    background-image: url(../images/contact_banner7.jpg);
 }
 
 #contact>.container {
