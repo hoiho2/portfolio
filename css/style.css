@@ -341,7 +341,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
 
 #skills>.skill>li:nth-child(4) {
     width: 270px;
-    background-image: url(../images/skills_4.png);
+    background-image: url(../images/skills_4.jpeg);
 }
 
 #skills>.tool {
@@ -351,32 +351,32 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
 
 #skills>.tool>li {
     float: left;
-    width: 96px;
+   
     height: 96px;
-    margin-left: 40px;
+    margin-left: 20px;
     text-indent: -9999px;
 }
 
 #skills>.tool>li:nth-child(1) {
     margin-left: 0;
+  
+    width: 96px;
     background-image: url(../images/skills_tool_1.png);
 }
 
 #skills>.tool>li:nth-child(2) {
+    width: 230px;
     background-image: url(../images/skills_tool1.png);
 }
 
-#skills>.tool>li:nth-child(3) {
-    background-image: url(../images/skills_tool2.png);
-}
+
 
 #skills>.tool>li:nth-child(4) {
+    width: 230px;
     background-image: url(../images/skills_tool3.png);
 }
 
-#skills>.tool>li:nth-child(5) {
-    background-image: url(../images/skills_tool4.png);
-}
+
 
 
 
@@ -550,7 +550,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
     display: block;
     width: 140px;
     height: 40px;
-    margin: 100px 10px 0 0;
+    margin: 5px 10px 0 0;
     line-height: 40px;
     text-align: center;
     font-size: 16px;
@@ -652,7 +652,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
     height: 160px;
     margin: 10px 10px 0 0;
     line-height: 160px;
-    background-image: url(../images/1design_5_detail.jpg);
+    background-image: url(../images/design_5_detail.jpg);
     ;}
 
 #design>.container>ul>li>.web>li:nth-child(5) {

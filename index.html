@@ -7,13 +7,11 @@
 
   <meta name="Subject" content="포트폴리오">
   <meta name="Title" content="최호진 포트폴리오">
-  <meta name="Keywords" content="웹퍼블리셔,웹디자이너,포트폴리오">
-  <meta name="Description" content="최적의 사용자 경험을 제공하는 것을 목표로 하는 웹 퍼블리셔">
+  
   <meta name="Author" content="최호진">
-  <meta name="Publisher" content="KimJimin">
+ 
   <meta name="Classification" content="포트폴리오">
-  <meta name="Location" content="Seoul Korea">
-  <meta name="Author-Date" content="2019.10.24">
+  
   <meta name="Copyright" content="최호진">
 
   <link rel="shortcut icon" href="images/favicon.ico">
@@ -75,14 +73,14 @@
 
           <ul class="clearfix">
             <li>
-              이름 : 최호진<br>
-              나이 : 27세<br>
-              학력 : 동아대학교 경영정보 학과 졸업<br>
-              경력 : 2023.01. ~ 2024.01.대학교 행정조교 <br>
-              업무 : 담당 센터 총괄 계획 수립, 운영 및 지원, 실적 관리<br>
-              자격증 : 데이터분석 준전문가(ADSP), 컴퓨터활용 2급, 토익스피킹 IM3<br>
-              수료 기관 : 2024.01. ~ 2024.07. 부경대학교 인적자원센터<br>
-              수료 과정 : 빅데이터기반 AI 개발 전문과정 (6개월)<br>
+              · 이름 : 최호진<br>
+              · 나이 : 27세<br>
+              · 학력 : 동아대학교 경영정보 학과 졸업<br>
+              · 경력 : 2023.01. ~ 2024.01.대학교 행정조교 <br>
+              · 업무 : 담당 센터 총괄 계획 수립, 운영 및 지원, 실적 관리<br>
+              · 자격증 : 데이터분석 준전문가(ADSP), 컴퓨터활용 2급, 토익스피킹 IM3<br>
+              · 수료 기관 : 2024.01. ~ 2024.07. 부경대학교 인적자원센터<br>
+              · 수료 과정 : 빅데이터기반 AI 개발 전문과정 (6개월)<br>
               
               
             </li>
@@ -153,28 +151,46 @@
         <ul class="mnu clearfix" style="text-align:center;">
           <li class="on"><a href="#">차량 번호 인식</a></li>
           <li><a href="#">학교 폭력 감지</a></li>
-          <!-- <li><a href="#">클리오코스메틱스</a></li>
-          <li><a href="#">090Factory</a></li>
-          <li><a href="#">파랑의 역사</a></li>
-          <li><a href="#">학부소개페이지</a></li>
-          <li><a href="#">복숭아 잡기</a></li> -->
+          <!-- <li><a href="#">다음 프로젝트</a></li>
+          -->
         </ul>
 
         <ul class="view">
           <li>
             <h3>차량 번호 인식 프로젝트<span></span></h3>
             <p>
-              범죄 검거 및 예방에 활용되는 차량 번호판 인식<br>
-              OpenCV 활용한 이미지 전처리 수행, 딥 러닝 모델을 훈련하여 차량 번호판 식별<br>
-              프로젝트의 결과 95%의 차량 번호판 인식 <br>
-              다양한 목적으로 활용, 도로 교통 모니터링부터 주정차 단속까지 다양한 응용이 가능
+             <strong> ● 프로젝트 배경 </strong><br> 범죄 발생 건수가 아직도 높지만, CCTV 관제가 범인 검거에 중요한 역할을 함<br> 차량 번호판 인식을 통한 추가적인 범죄 예방 및 해결이 필요<br>
+      
+             <strong> ● 프로젝트 목적 </strong><br>기존 차량 번호판 인식 시스템을 따라해보면서 시스템 과정을 이해하는 것.<br>
+   
+             <strong>● 활용 기술</strong> <br>
+            </p>
+            <table style="border-collapse: collapse; width: 50%;">
+              
+              <tr>
+                <td style="border: 1px solid black; padding: 8px; background-color: #a7ccfc;; text-align: center;">YOLOv5</td>
+                <td style="border: 1px solid black; padding: 8px;">번호판 인식,번호판 이미지를 통한 번호 추출</td>
+              </tr>
+             
+              <tr>
+                <td style="border: 1px solid black; padding: 8px; background-color: #a7ccfc;; text-align: center;">FTP</td>
+                <td style="border: 1px solid black; padding: 8px;">학습한 이미지 원본을 센터로 FTP로 전송</td>
+              </tr>
+
+              <tr>
+                <td style="border: 1px solid black; padding: 8px; background-color: #a7ccfc; text-align: center;">CUDA/CUDNN</td>
+                <td style="border: 1px solid black; padding: 8px;">YOLOv5 모델 학습 속도 향상,대규모 데이터셋 처리</td>
+              </tr>
+            </table>
+          
+            <p><strong> ● 성과</strong> <br>
+              > 번호 인식률 목표 95% 달성<br>
+              > CUDA/CUDNN 환경 구축하는 법을 배움<br>
+              > OpenCV 활용한 이미지 전처리 수행, 딥 러닝 모델을 훈련하여 차량 번호판 식별 과정 이해
 
             </p>
-            <p>
-              담당 : 조장<br>
-              기술 스택 : Python, Visual Studio Code, SQLite, YOLOv5, PyTorch<br>
-              참여도 : 100%
-            </p>
+            
+            
             <div  class="view_img" id="view_img1">메인화면 이미지 미리보기
               <img src="images/click.png" class="click-img" alt="Click here">
             </div>
@@ -184,20 +200,42 @@
           </li>
 
           <li>
-            <h3>학교 폭력 감지(진행 중)<span></span></h3>
+            <h3>학교 폭력 감지(24.06 ~ )<span></span></h3>
             <p>
-              학교 내 발생하는 폭력 사건을 
-              실시간으로 감지하여 관리자에게<br>
-              즉시 알리는 시스템을 준비 중
-            </p>
-            <p>
-              기술 스택 : Python, Visual Studio Code, SQLite, YOLOv5, PyTorch<br>
-              진행률 : 30%<br>
-              참여 : 1인
-            </p>
+              <strong> ● 프로젝트 배경 </strong><br> 학교 내 폭력 사건이 코로나 이후 정상 수업 환경 회복으로 다시 증가하는 추세<br>
+       
+              <strong> ● 프로젝트 목적 </strong><br>기술을 활용하여 CCTV를 통해 학교폭력을 실시간으로 감지하고, <br>
+                                               관리자에게 알림 전송하여 학생들의 안전을 보장하는 시스템을 구축<br>
+    
+              <strong>● 활용 기술</strong> <br>
+             </p>
+             <table style="border-collapse: collapse; width: 50%;">
+               
+               <tr>
+                 <td style="border: 1px solid black; padding: 8px; background-color: #a7ccfc;; text-align: center;">YOLOv5</td>
+                 <td style="border: 1px solid black; padding: 8px;">데이터에서 사람 객체 추출</td>
+               </tr>
+              
+               <tr>
+                 <td style="border: 1px solid black; padding: 8px; background-color: #a7ccfc;; text-align: center;">HRNet</td>
+                 <td style="border: 1px solid black; padding: 8px;">키포인트 라벨링을 통한 관절 정보 인식</td>
+               </tr>
+ 
+               <tr>
+                 <td style="border: 1px solid black; padding: 8px; background-color: #a7ccfc; text-align: center;">EfficientNet</td>
+                 <td style="border: 1px solid black; padding: 8px;">폭력적인 자세 정보 추론</td>
+               </tr>
+             </table>
+           
+             <p><strong> ● 목표</strong> <br>
+               > 키포인트 라벨링을 통한 관절 및 자세 정보 인식 과정 배우기<br>
+               > 정확도 90% 이상<br>
+               > 미인식률 5% 이하
+ 
+             </p>
             <div class="view_img"id="view_img2">메인화면 이미지 미리보기</div>
             <a href="file/plan.pdf" class="viewOpen">계획서</a>
-            <!-- <a href="https://kim-ji-min.github.io/LINE/" target="_blank">사이트 바로가기</a> -->
+            <!-- <a href="https://ho.github.io/LINE/" target="_blank">사이트 바로가기</a> -->
           </li>
 
 
@@ -250,8 +288,8 @@
         </p>
   
         <div class="link clearfix">
-          <!-- <a href="file/kimpeach_project_document.pdf" class="fileOpen" target="_blank">프로필 사이트 기획안 살펴보기</a>
-          <a href="https://github.com/Kim-Ji-Min" class="git" target="_blank">GIT 바로가기</a> -->
+          <!-- 
+          <a href="https://github.com/ho" class="git" target="_blank">GIT 바로가기</a> -->
         </div>
       </div>
     </section><!--end of contact-->
