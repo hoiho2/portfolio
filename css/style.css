@@ -526,12 +526,12 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
     width: 480px;
     height: 385px;
     text-indent: -9999px;
-    background-image: url(../images/1portfolio_sampyo.jpg);
+    background-image: url(../images/portfolio_car.jpg);
     
 }
 
 #portfolio>.container>.view>li:nth-child(2)>.view_img {
-    background-image: url(../images/portfolio_line.png);
+    background-image: url(../images/portfolio_school.png);
 }
 
 #portfolio > .container > .view > li > #view_img1.gifState {
