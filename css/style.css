@@ -157,10 +157,10 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
 }
 
 #aboutme>.content1-left>a>p.img {
-    width: 358px;
-    height:  553px;
+    width: 300px;
+    height:  420px;
     text-indent: -9999px;
-    background-image: url(../images/about_me.jpg);
+    background-image: url(../images/about_me2.jpg);
 }
 
 #aboutme>.content1-left>a>p.link {
